@@ -8,6 +8,15 @@ import Page from "./collection/page";
 import Tag from "./collection/tag";
 
 const config = defineConfig({
+  tinaioConfig: {
+    frontendUrlOverride: 'http://localhost:3002',
+    identityApiUrlOverride: 'https://elikent-identity.tinajs.dev',
+    contentApiUrlOverride: 'https://elikent-content.tinajs.dev',
+
+    // Include next line only if you set DEPLOY_ASSETS_API to true for your instance...
+    // assetsApiUrlOverride: 'https://assets-api-local-elikent.tinajs.dev'
+  },
+
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
   branch:
     process.env.NEXT_PUBLIC_TINA_BRANCH! || // custom branch env override
