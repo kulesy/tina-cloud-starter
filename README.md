@@ -19,7 +19,7 @@ The content is managed through Markdown and JSON files stored in your GitHub rep
 
 ## Local Development
 
-Install the project's dependencies:
+Install the project's dep
 
 > [!NOTE]  
 > [Do you know the best package manager for Node.js?](https://www.ssw.com.au/rules/best-package-manager-for-node/) Using the right package manager can greatly enhance your development workflow. We recommend using pnpm for its speed and efficient handling of dependencies. Learn more about why pnpm might be the best choice for your projects by checking out this rule from SSW.
