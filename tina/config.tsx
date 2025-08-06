@@ -14,7 +14,7 @@ const config = defineConfig({
     contentApiUrlOverride: 'https://elikent-content.tinajs.dev',
 
     // Include next line only if you set DEPLOY_ASSETS_API to true for your instance...
-    // assetsApiUrlOverride: 'https://assets-api-local-elikent.tinajs.dev'
+    assetsApiUrlOverride: 'https://assets-api-local-elikent.tinajs.dev'
   },
 
   clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID!,
