@@ -12,7 +12,7 @@ import { Section, sectionBlockSchemaField } from '../layout/section';
 import { AnimatedGroup } from '../motion-primitives/animated-group';
 import { TextEffect } from '../motion-primitives/text-effect';
 import HeroVideoDialog from '../ui/hero-video-dialog';
-import { cn } from '@/lib/utils';
+import { Variants } from 'motion/react';
 const transitionVariants = {
   container: {
     visible: {
@@ -39,7 +39,7 @@ const transitionVariants = {
       },
     },
   },
-}
+} as Variants
 
 export const Hero = ({ data }: { data: PageBlocksHero }) => {
 
