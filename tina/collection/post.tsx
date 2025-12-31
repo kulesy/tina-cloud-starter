@@ -16,7 +16,7 @@ const Post: Collection = {
   fields: [
     {
       type: 'string',
-      label: 'Title',
+      label: 'Titles',
       name: 'title',
       isTitle: true,
       required: true,
