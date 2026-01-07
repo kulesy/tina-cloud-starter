@@ -27,14 +27,6 @@ const config = defineConfig({
     tina: {
       indexerToken: process.env.TINA_TOKEN_SEARCH,
       stopwordLanguages: ['eng'],
-      fuzzyDisabled: false,
-      fuzzyOptions: {
-        maxDistance: 2,
-        minSimilarity: 0.6,
-        maxResults: 10,
-        useTranspositions: true,
-        caseSensitive: false,
-      },
   },
     indexBatchSize: 100,
     maxSearchIndexFieldLength: 100,
