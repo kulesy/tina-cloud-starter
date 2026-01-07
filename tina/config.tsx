@@ -25,7 +25,7 @@ const config = defineConfig({
   token: process.env.TINA_TOKEN!,
   search: {
     tina: {
-      fuzzyEnabled: false,
+      fuzzyEnabled: true,
       fuzzyOptions: {
         maxTermExpansions: 1
       },
