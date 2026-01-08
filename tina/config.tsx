@@ -31,7 +31,8 @@ const config = defineConfig({
       },
       indexerToken: process.env.TINA_TOKEN_SEARCH,
       stopwordLanguages: ['eng'],
-  },
+      stopWords: ['']
+    },
     indexBatchSize: 100,
     maxSearchIndexFieldLength: 100,
   },
