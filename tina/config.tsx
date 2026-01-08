@@ -29,7 +29,6 @@ const config = defineConfig({
       fuzzyOptions: {
         maxTermExpansions: 1
       },
-      limit: 5,
       indexerToken: process.env.TINA_TOKEN_SEARCH,
       stopwordLanguages: ['eng'],
   },
